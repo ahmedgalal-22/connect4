@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Connect 4</title>
+</head>
+<body>
+    <div class="dialog-box">
+        <h3>Lorem , saepe.</h3>
+        <button onclick="this.parentNode.style.display='none'">Ok</button>
+    </div>
+    <div class="content">
+        <header>
+            <h2 c>Connect-4</h2>
+            <div class="btns">
+                <span>Grid Size:</span>
+                <input type="number" name="rows" value="8" max="20" min="4" />
+                x
+                <input type="number" name="columns" value="9" max="20" min="4" />
+                <button class="btn-restart" onclick="reset(this)">Restart</button>
+                <button class="btn-undo" onclick="undo()">Undo</button>
+            </div>
+        </header>
+        <div class="hidden-grid"></div>
+        <div class="grid"></div>
+    </div>
+    <footer>
+        <p>
+            <a>Ai-PROJECT-2024-</a>
+            
+            <a>( AhMeDGalal  - eman khater - esraa morsii )</a>
+        </p>
+    </footer>
+</body>
+<script src="main.js"></script>
+</html>
